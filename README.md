@@ -5,4 +5,4 @@
 - Live links are below:
 
 1. Mini-site-1 : <br>
-   Live Hosted Link : 
+   Live Hosted Link(Web-view only) : mini-site-1.netlify.app
