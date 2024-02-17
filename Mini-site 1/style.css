@@ -37,13 +37,14 @@ html, body{
 #text{
     /* height: 300px; */
     position: absolute;
-    width: 400px;
+    width: 500px;
     left: 9%;
     top: 50%;
     transform: translate(0, -50%);
 }
 .line {
     position: relative;
+    /* width: 500px; */
     overflow: hidden;
     margin: 5px;
 }
@@ -56,8 +57,9 @@ html, body{
     width: 100%;
     height: 100%;
     background: white;
+    animation: slidein 8s forwards;
 }
-/*.line::before {
+/* .line::before {
     left: 0%;
     animation: slidein 1s forwards;
 }
@@ -65,18 +67,15 @@ html, body{
 .line::after {
     left: -100%;
     animation: slideout 1s forwards;
-    animation-delay: 4s;
-}*/
-.line::before {
-    left: -100%;
-    animation: slidein 1s forwards;
+    animation-delay: 2s; 
+} */
+/* .line::before {
+    animation: slidein 8s forwards;
 }
 
 .line::after {
-    left: 100%;
-    animation: slideout 1s forwards;
-    animation-delay: 4s;
-}
+    animation: slidein 8s forwards;
+} */
 
 #text h1 {
     font-size: 95px;
@@ -87,33 +86,37 @@ html, body{
     color: white;
     text-transform: uppercase;
     opacity: 0;
-    animation: fadeIn 3s forwards;
+    animation: fadeIn 6s forwards;
     animation-delay: 1s;
 }
 @keyframes slidein {
     0% {
+        left: -100%;
         transform: translateX(-100%);
     }
-    100% {
-        transform: translateX(0);
-    }
-}
-@keyframes slideout {
-    0% {
+    50%, 70% {
+        left: 100%;
         transform: translateX(0);
     }
     100% {
         transform: translateX(-100%);
+        left: -1%;
     }
 }
 
 @keyframes fadeIn {
     0% {
         opacity: 0;
+        transform: translateX(-100%);
+    }
+    50%, 80% {
+        opacity: 1;
+        transform: translateX(0);
     }
     100% {
-        opacity: 1;
-    }
+        opacity: 0;
+        transform: translateX(-100%);
+    }      
 }
 #sec-image{
     height: 400px;
@@ -181,22 +184,81 @@ html, body{
 
 
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+    #html, body {
+      overflow-y: auto;
+    }
     #main {
       flex-direction: column;
     }
-    #first, #second, #third {
+    #first, #third {
       width: 100%;
+      height: auto;
+    }
+    #second {
+        height: 100%;
+        width: 100%;
     }
     #text {
-      position: static;
-      text-align: center;
+      position: absolute;
+      width: 300px;
+      left: 3%;
     }
-    #sec-image {
-      position: static;
-      margin: 0 auto;
+    #text h1 {
+        font-size: 55px;
+        line-height: 38px;
+        font-family: monospace;
+        letter-spacing: 5px;
+        font-weight: 800;
     }
-    #v-text {
-      display: none;
+    #nav{
+        position: absolute;
+        width: 195px;
+        top: 5%;
+        /* left: 9%; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
-  } */
+    #nav img{
+        height: 40px;
+    }
+    #nav h5{
+        font-size: 14px;
+        font-family: gilroy;
+        color: #fff;
+    }
+    #sec-image{
+        margin: 0 auto;
+        height: 200px;
+        width: 150px;
+        top: 79%;
+        right: 5%;
+    }
+    #v-text{
+        position: absolute;
+        right: -138%;
+        transform-origin: 0% 0%; 
+        transform: rotate(90deg);
+    }
+    #v-text h1{
+        font-size: 30px;
+        font-weight: 900;
+        color: transparent;
+        text-transform: uppercase;
+        font-family: monument;
+        letter-spacing: 10px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #ffff;
+        /* animation: scrollUp 5s linear infinite; */
+        animation: scrollUp 5s cubic-bezier(0.1, 0.87, 0.32, 1) forwards;
+    }
+    @keyframes scrollUp {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-45%);
+        }
+    }
+  }
