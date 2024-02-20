@@ -5,9 +5,11 @@
 - Live links are below:
 
 1. Mini-site-1 : <br>
-   Live Hosted Link : https://mini-site-1.netlify.app/
+   Live Hosted Link(Only Laptop/desktop view) : https://mini-site-1.netlify.app/
 2. Mini-site-2 : <br>
    Live Hosted Link : https://mini-site-2.netlify.app/
+3. Mini-ste-3 : <br>
+   Live Hosted Link(Only web view | Mobile view isn't available) : https://mini-site-3.netlify.app/
 
 <br>   
 - Created by me :)
