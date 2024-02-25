@@ -7,11 +7,12 @@
 - Live links are below:
 <hr>
 1. Mini-site-1 : 
-   <br>Sneak-peek
    <br>
-   
+   Sneak-peek
+   <br>
 
-https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/45d430c0-8c42-4cd7-86ff-fd6bf76ba638
+https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/32f60df9-af32-4757-8b34-53765a541c96
+
 
 <br>
    Live Hosted Link(Only Laptop/desktop view) : https://mini-site-1.netlify.app/
@@ -29,9 +30,8 @@ https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/45d430c0-8
    <br>Sneak-peek:
    <br>
 
+https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/82dd19fa-8ea5-46d5-aca0-448c12dcf141
 
-
-https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/ad6b6a68-98c2-4e39-aa50-fcac936ec47b
 
 <br>
    Live Hosted Link(Only web view | Mobile view isn't available) : https://mini-site-3.netlify.app/
@@ -48,6 +48,17 @@ https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/ad6b6a68-9
    Live Hosted Link : https://mini-site-4.netlify.app/
    <br>
    <hr>
+5. Mini-site-5 :
+   <br> 
+   Sneak-peek:
+   <br>
    
+https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/19640a3b-e697-4491-8bc8-7b71390c333e
+
+
+   <br>
+   Live Hosted Link(Only Laptop/desktop view) : https://mini-site-5.netlify.app/ 
 <br>   
+<hr>
+<br>
 - Created by me :)
