@@ -21,3 +21,8 @@ gsap.from("#main h1",{
     opacity: 0,
     duration: 1
 })
+gsap.from("#main #txt",{
+    delay: 0.4,
+    opacity: 0,
+    duration: 1
+})

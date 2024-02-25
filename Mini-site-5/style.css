@@ -37,6 +37,16 @@ html, body{
     font-weight: 500;
 }
 
+span{
+    display: inline-block;
+    content: "";
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: springgreen;
+    margin-left: 2px;
+}
+
 #nav #part2{
     display: flex;
     align-items: center;
@@ -78,6 +88,16 @@ html, body{
     left: 0;
 }
 
+#nav #part2 a:nth-child(-n+5){
+    border-bottom: 2px solid transparent;
+}
+
+#nav #part2 a:nth-child(-n+5):hover {
+    /* Your styles here */
+    border-bottom: 2px solid springgreen;
+    transition: 0.4s ease;
+}
+
 #main>h1{
     font-size: 4.7vw;
     width: 60%;
@@ -113,7 +133,7 @@ html, body{
     width: 250px;
     position: absolute;
     right: 24%;
-    top: 18%;
+    top: 19%;
 }
 
 #main #img3{
@@ -151,17 +171,54 @@ html, body{
 }
 
 #txt i{
-    font-size: 2vw;
+    display: flex;
+    font-size: 1.6vw;
     margin-left: 13px;
     border: 1px solid #00000063;
     width: 60px;
     height: 35px;
     border-radius: 25px;
-    overflow: hidden;
     align-items: center;
+    text-align: center;
     justify-content: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+    position: relative;
+    z-index: 1;
+}
+#txt i::before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: springgreen;
+    transition: left 0.5s ease;
+    z-index: -1;
 }
 
+#txt i:hover::before {
+    left: 0;
+}
 #txt i:hover{
     cursor: pointer;
+}
+
+@media (max-width:950px){
+    body::before{
+        content: "Mobile view is NOT Available! Please open in Laptop or Desktop.";
+        display: block;
+        font-size: 5.5vw;
+        width: 40%;
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #main{
+        display: none;
+    }
 }
