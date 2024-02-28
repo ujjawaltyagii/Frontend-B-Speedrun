@@ -60,5 +60,21 @@ https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/19640a3b-e
    Live Hosted Link(Only Laptop/desktop view) : https://mini-site-5.netlify.app/ 
 <br>   
 <hr>
+6. Mini-site-6 : 
+   <br>
+   Sneak-peek:
+   <br>
+
+
+https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/5d4401a2-cb5a-4d00-9b09-987506df4f1c
+
+
+
+
+
+<br>
+   Live Hosted Link(Only Laptop/desktop view) : https://mini-site-6.netlify.app/
+<br><hr>
+
 <br>
 - Created by me :)
