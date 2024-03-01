@@ -53,7 +53,11 @@ https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/82dd19fa-8
    Sneak-peek:
    <br>
    
-https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/19640a3b-e697-4491-8bc8-7b71390c333e
+
+
+https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/8601fd66-d5a8-4e0d-a989-0f571b2cde91
+
+
 
 
    <br>
