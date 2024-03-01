@@ -21,6 +21,15 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #nav{
     height: 100px;
@@ -31,6 +40,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 999;
 }
 #nav>h1{
     font-size: 31px;
@@ -98,7 +108,7 @@ span{
     transition: 0.4s ease;
 }
 
-#main>h1{
+#page1>h1{
     font-size: 4.7vw;
     width: 60%;
     font-weight: 100;
@@ -108,7 +118,7 @@ span{
     z-index: 1;
 }
 
-#main>h1::after{
+#page1>h1::after{
     content: "";
     position: absolute;
     width: 33%;
@@ -144,15 +154,15 @@ span{
     top: 54%;
 }
 
-#main img{
+#page1 img{
     transition: margin 0.6s ease;
 }
 
-#main img:hover{
+#page1 img:hover{
     margin-top: -15px;
 }
 
-#main #txt{
+#page1 #txt{
     position: absolute;
     display: flex;
     bottom: 27%;
@@ -160,7 +170,7 @@ span{
     text-align: center;
 }
 
-#main #txt h5{
+#page1 #txt h5{
     font-size: 1.5vw;
     font-weight: 600;
     text-align: center;
@@ -205,6 +215,96 @@ span{
 #txt i:hover{
     cursor: pointer;
 }
+
+#page2{
+    height: 70vh;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    top: 90vh;
+}
+
+#test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#test #ball{
+    content: "";
+    /* position: absolute; */
+    /* left: 32%;
+    top: 22%; */
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: springgreen;
+}
+
+#test h5{
+    font-size: 19px;
+    font-family: gilroy;
+    font-weight: 500;
+}
+#page2 h1{
+    font-size: 47px;
+    width: 70%;
+    margin: 30px 0;
+    text-align: center;
+    font-family: cooper;
+    font-weight: 100;
+    position: relative;
+}
+
+#page2 h1::after{
+    content: "";
+    position: absolute;
+    height: 68px;
+    width: 208px;
+    bottom: -3px;
+    left: 38.5%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+}
+
+#about{
+    display: flex;
+    align-items: center;
+}
+
+#about>h4{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: gilroy;
+}
+
+#green2{
+    height: 40px;
+    width: 80px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#green2 img{
+    height: 45px;
+}
+
+/* #page3{
+    height: 100vh;
+    width: 100vw;
+} */
+
 
 @media (max-width:950px){
     body::before{
