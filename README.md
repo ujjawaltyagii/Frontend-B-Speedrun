@@ -79,6 +79,17 @@ https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/5d4401a2-c
 <br>
    Live Hosted Link(Only Laptop/desktop view) : https://mini-site-6.netlify.app/
 <br><hr>
+7. Mini-site-7 : 
+   <br>
+   Sneak-peek:
+   <br>
 
+![mini-site-7](https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/8a2282a3-cf19-43d2-827d-2d86e4a3c19c)
+
+
+
+<br>
+   Live Hosted Link(Only Laptop/desktop view) : https://mini-site-7.netlify.app/
+<br><hr>
 <br>
 - Created by me :)
