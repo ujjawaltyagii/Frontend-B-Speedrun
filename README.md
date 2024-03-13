@@ -92,7 +92,7 @@ https://github.com/ujjawaltyagii/Frontend-B-Speedrun/assets/115401171/5d4401a2-c
    Live Hosted Link(Only Laptop/desktop view) : https://mini-site-7.netlify.app/
 <br><hr>
 
-7. Mini-site-8 : 
+8. Mini-site-8 : 
    <br>
    Sneak-peek:
    <br>
